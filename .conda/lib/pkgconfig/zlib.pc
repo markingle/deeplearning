@@ -1,0 +1,13 @@
+prefix=/Users/markingle/Downloads/d2l-en/.conda
+exec_prefix=/Users/markingle/Downloads/d2l-en/.conda
+libdir=/Users/markingle/Downloads/d2l-en/.conda/lib
+sharedlibdir=/Users/markingle/Downloads/d2l-en/.conda/lib
+includedir=/Users/markingle/Downloads/d2l-en/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
